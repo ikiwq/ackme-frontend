@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import "@radix-ui/themes/styles.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html * {
+  font-family: "Inter", serif;
+  outline: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--gray-8);
+  border-radius: 10px;
+}
